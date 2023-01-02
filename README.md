@@ -7,8 +7,8 @@
 1. 매주 스터디는 2시간을 기본으로 한다. 스터디장이 기술소개시간 1시간 , 스터디원 2명이 발표 진행 1시간을 맡는다, 해당발표 내용은 이 [deploy-challenge-study](https://github.com/mooh2jj/deploy-challenge-study)를 `fork`한 후 본인 Repository에서 각 `본인이름의 디렉토리`에 `PR(Pull Request)`하여 정리해주면 된다.
   * fork&PR 영상 참고 -> https://www.youtube.com/watch?v=yr6IzOGoMsQ
 
-2. 발표자들 2명은 과제한 내용 또는 공부한 내용을 발표한다.(발표는 하고싶은 분을 1순위, 없다면 당일날 랜덤으로 정해진다.)
-3. 발표시 CodeReview인 점을 감안하여 개발한 내용을 중심으로 발표가 이루어져야 한다.(이론적인 내용만 하는 건 NoNo!)
+2. 발표자들 2명은 과제한 내용 또는 공부한 내용을 발표한다.(발표는 하고싶은 분을 1순위, 없다면 당일날 랜덤으로 정해집니다)
+3. 발표시 CodeReview인 점을 감안하여 개발한 내용을 중심으로 발표가 이루어져야 한다.(이론적인 내용도 좋지만 직접 코드를 작성한걸로 발표하는 걸 권장드립니다)
 4. 나머지 스터디원들도 매주 해당 내용 숙지를 위해 스터디한 내용 학습, 학습한 내용을 `해당 본인이름의 디렉토리`에 `PR`하여 정리한다. 
 
 
@@ -38,10 +38,36 @@
  * AWS 가입 -> EC2 인스턴스 만들기  
  * Docker 설치하기(윈도우의 경우 wsl2 설치해야)
 ```
+* 환경셋팅 : https://www.notion.so/bb4d80cb1a094696b8ff27f4cd52bb00
+
+ <br>
+ 
 </div>
 </details>
 
+<details>
+<summary>2주차(12/24)</summary>
+<div markdown="1">
 
+* 백앤드 프로젝트 배포 구조도(springBoot - jenkins- docker)
+* 김종훈, 이여울님 발표
+* gradle 빌드 jar, docker container 작동 로컬에서 확인
+* crud -> jpa dto response 확인
+* 정리 : https://www.notion.so/2week-48ad0851088b497fa8335c1cf133f7e6
+
+* 과제 
+``` 
+1) aws ec2 인스턴스에서 프로젝트 gradle jar 실행하기, 
+ec2 인스턴스 docker 설치 -> docker image 만들고 프로젝트 docker 실행하기
+
+2) docker로 jenkins 설치하기(로컬, ec2) 
+
+3) exception 처리를 위한 exceptionHandler 구현하기
+
+4) 챌린지 과제 - Junit5 테스트 작성하기(controller, service)
+```
+</div>
+</details>
 <br>
 
 # 🎃 주의사항
