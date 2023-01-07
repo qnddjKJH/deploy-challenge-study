@@ -4,9 +4,11 @@ import challenge.deploy.server.domain.member.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 public class MemberRequestDto {
     @Builder
+    @NoArgsConstructor
     @AllArgsConstructor
     @Data
     public static class Join {
